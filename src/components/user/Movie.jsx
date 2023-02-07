@@ -7,7 +7,7 @@ const Movie = () => {
   };
   return (
     <div className="container">
-      <img src="elvis-large.jpg" alt="" />
+      <img src="src/assets/elvis-large.jpg" alt="" />
       <div className="descripcion">
         <h1>Elvis (2022)</h1>
         <h3>Sinópsis</h3>

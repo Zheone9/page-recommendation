@@ -13,7 +13,7 @@ const Header = () => {
       <div>
         <div style={{ flex: 1 }}>
           <img
-            src="moviereview.PNG"
+            src="src/assets/moviereview.png"
             alt=""
             className="logo"
             onClick={() => {
@@ -33,11 +33,19 @@ const Header = () => {
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="primer.png" class="d-block w-100" alt="..." />
+                <img
+                  src="src/assets/primer.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
 
               <div class="carousel-item">
-                <img src="segundo.png" class="d-block w-100" alt="..." />
+                <img
+                  src="src/assets/segundo.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
             </div>
             <button
