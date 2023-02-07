@@ -13,7 +13,7 @@ const Header = () => {
       <div>
         <div style={{ flex: 1 }}>
           <img
-            src="src/assets/moviereview.png"
+            src="https://res.cloudinary.com/dzxhdnqm4/image/upload/v1669581903/jlfnrwqb6qp8n96a2rcm.jpg"
             alt=""
             className="logo"
             onClick={() => {
