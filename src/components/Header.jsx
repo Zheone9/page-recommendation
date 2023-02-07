@@ -13,7 +13,7 @@ const Header = () => {
       <div>
         <div style={{ flex: 1 }}>
           <img
-            src="moviereview.png"
+            src="moviereview.PNG"
             alt=""
             className="logo"
             onClick={() => {
