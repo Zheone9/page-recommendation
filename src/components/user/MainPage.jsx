@@ -3,6 +3,7 @@ import { Navigate, useNavigate } from "react-router-dom";
 
 const MainPage = () => {
   const movies = [
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/elvis_udwh0b.jpg",
     "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/enough_hhcean.jpg",
     "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732263/yellow_hdrpzh.jpg",
     "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732263/youpeople_mkwfgj.jpg",
@@ -22,7 +23,6 @@ const MainPage = () => {
     "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/mandalorian_rs7up0.jpg",
     "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/bel_axqvql.jpg",
     "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/bloody_rwxbll.jpg",
-    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/enough_hhcean.jpg",
   ];
   const navigate = useNavigate();
   const handleClick = (movie) => {

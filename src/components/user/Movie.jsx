@@ -7,7 +7,10 @@ const Movie = () => {
   };
   return (
     <div className="container">
-      <img src="src/assets/elvis-large.jpg" alt="" />
+      <img
+        src="https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/elvis-large_v2ed9z.jpg"
+        alt=""
+      />
       <div className="descripcion">
         <h1>Elvis (2022)</h1>
         <h3>Sinópsis</h3>
