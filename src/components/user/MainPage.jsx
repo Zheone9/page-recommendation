@@ -28,7 +28,7 @@ const MainPage = () => {
   const handleClick = (movie) => {
     if (
       movie ===
-      "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/enough_hhcean.jpg"
+      "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/elvis_udwh0b.jpg"
     ) {
       navigate("/elvis");
     }
