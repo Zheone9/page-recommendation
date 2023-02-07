@@ -13,7 +13,7 @@ const Header = () => {
       <div>
         <div style={{ flex: 1 }}>
           <img
-            src="https://res.cloudinary.com/dzxhdnqm4/image/upload/v1669581903/jlfnrwqb6qp8n96a2rcm.jpg"
+            src="https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732261/moviereview_sfx4n3.png"
             alt=""
             className="logo"
             onClick={() => {
@@ -34,7 +34,7 @@ const Header = () => {
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="src/assets/primer.png"
+                  src="https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732261/primer_lnsfg3.png"
                   class="d-block w-100"
                   alt="..."
                 />
@@ -42,7 +42,7 @@ const Header = () => {
 
               <div class="carousel-item">
                 <img
-                  src="src/assets/segundo.png"
+                  src="https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732262/segundo_pkswdq.png"
                   class="d-block w-100"
                   alt="..."
                 />

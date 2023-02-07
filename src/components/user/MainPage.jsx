@@ -3,30 +3,33 @@ import { Navigate, useNavigate } from "react-router-dom";
 
 const MainPage = () => {
   const movies = [
-    "src/assets/elvis.JPEG",
-    "src/assets/avatar.JPEG",
-    "src/assets/bel.JPEG",
-    "src/assets/bloody.JPEG",
-    "src/assets/enough.JPEG",
-    "src/assets/fear.JPEG",
-    "src/assets/gatobotas.JPEG",
-    "src/assets/hunters.JPEG",
-    "src/assets/mandalorian.JPEG",
-    "src/assets/megan.JPEG",
-    "src/assets/missing.JPEG",
-    "src/assets/otto.JPEG",
-    "src/assets/paul.JPEG",
-    "src/assets/quiet.JPEG",
-    "src/assets/sick.JPEG",
-    "src/assets/traitors.JPEG",
-    "src/assets/valhalla.JPEG",
-    "src/assets/velma.JPEG",
-    "src/assets/yellow.JPEG",
-    "src/assets/youpeople.JPEG",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/enough_hhcean.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732263/yellow_hdrpzh.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732263/youpeople_mkwfgj.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732263/avatar_tf7kfr.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732263/traitors_lp549v.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732262/valhalla_ikqkss.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732262/velma_isinib.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732262/sick_u5om6d.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732261/paul_baccsx.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732261/quiet_cfcewy.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732261/otto_u47smj.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732261/gatobotas_fvawlx.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732261/missing_bbel7k.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/hunters_ceovzv.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732261/megan_fmnsfi.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/fear_lpsdxm.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/mandalorian_rs7up0.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/bel_axqvql.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/bloody_rwxbll.jpg",
+    "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/enough_hhcean.jpg",
   ];
   const navigate = useNavigate();
   const handleClick = (movie) => {
-    if (movie === "src/assets/elvis.JPEG") {
+    if (
+      movie ===
+      "https://res.cloudinary.com/dzxhdnqm4/image/upload/v1675732260/enough_hhcean.jpg"
+    ) {
       navigate("/elvis");
     }
   };
