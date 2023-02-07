@@ -3,30 +3,30 @@ import { Navigate, useNavigate } from "react-router-dom";
 
 const MainPage = () => {
   const movies = [
-    "elvis.jpeg",
-    "avatar.jpeg",
-    "bel.jpeg",
-    "bloody.jpeg",
-    "enough.jpeg",
-    "fear.jpeg",
-    "gatobotas.jpeg",
-    "hunters.jpeg",
-    "mandalorian.jpeg",
-    "megan.jpeg",
-    "missing.jpeg",
-    "otto.jpeg",
-    "paul.jpeg",
-    "quiet.jpeg",
-    "sick.jpeg",
-    "traitors.jpeg",
-    "valhalla.jpeg",
-    "velma.jpeg",
-    "yellow.jpeg",
-    "youpeople.jpeg",
+    "elvis.JPEG",
+    "avatar.JPEG",
+    "bel.JPEG",
+    "bloody.JPEG",
+    "enough.JPEG",
+    "fear.JPEG",
+    "gatobotas.JPEG",
+    "hunters.JPEG",
+    "mandalorian.JPEG",
+    "megan.JPEG",
+    "missing.JPEG",
+    "otto.JPEG",
+    "paul.JPEG",
+    "quiet.JPEG",
+    "sick.JPEG",
+    "traitors.JPEG",
+    "valhalla.JPEG",
+    "velma.JPEG",
+    "yellow.JPEG",
+    "youpeople.JPEG",
   ];
   const navigate = useNavigate();
   const handleClick = (movie) => {
-    if (movie === "elvis.jpeg") {
+    if (movie === "elvis.JPEG") {
       navigate("/elvis");
     }
   };
