@@ -1,0 +1,20 @@
+.footer {
+  margin-top: 20px;
+  div {
+    margin-left: 100px;
+  }
+  flex-direction: column;
+  background-color: $dark;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+  a {
+    transition: all 0.2s ease;
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

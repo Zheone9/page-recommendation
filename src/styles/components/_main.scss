@@ -1,0 +1,23 @@
+.main {
+  color: black !important;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 20px;
+}
+
+.movie-item {
+  width: 170px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+}
